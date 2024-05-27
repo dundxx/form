@@ -16,6 +16,10 @@ body {
     text-align: center;
   }
   
+  .p_align_center {
+    text-align: center;
+  }
+
   .form-group {
     margin-bottom: 20px;
   }
@@ -23,12 +27,14 @@ body {
   label {
     display: block;
     font-weight: bold;
+    padding-bottom: 8px;
   }
   
   input[type="email"],
   input[type="password"] {
     width: 100%;
     font-size: medium;
+    height: 34px;
     border: 1px solid #ccc;
     border-radius: 3px;
   }
@@ -53,3 +59,23 @@ body {
     background-color: #0056b3;
   }
   
+  .button_toogle {
+    background-color: black; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+  }
+  
+  .button_toogle:hover {
+    background-color: #e3dc21;
+  }
+
+  .button_toogle:active {
+    background-color: #e32121;
+  }
