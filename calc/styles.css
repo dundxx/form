@@ -9,6 +9,7 @@
 .calculator-grid > button {
     font-size: 2rem;
     border: solid 1.5px;
+    border-color: #000000;
     padding: 1.5rem 0;
     background-color: #D8D9DB;;
     transition: background-color 0.3s ease;
@@ -22,16 +23,23 @@
     background-color: #58c182e6;
 }
 
+button.calculator_button_color:hover {
+    background-color:#ff9e37;
+}
+
 button.calculator_button_color {
     background-color:#DF974C;
+    color:#ffffff;
 }
 
 .span-three {
     grid-column: span 3;
 }
+
 .span-two {
     grid-column: span 2;
 }
+
 .output {
     grid-column: span 4;
     text-align: right;
