@@ -12,7 +12,7 @@
     border-color: #000000;
     padding: 1.5rem 0;
     background-color: #D8D9DB;;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.15s ease;
 }
 
 .calculator-grid > button:hover {
@@ -20,11 +20,15 @@
 }
 
 .calculator-grid > button:active {
-    background-color: #58c182e6;
+    background-color: #b9b9b9;
 }
 
 button.calculator_button_color:hover {
     background-color:#ff9e37;
+}
+
+button.calculator_button_color:active {
+    background-color: #d17516;
 }
 
 button.calculator_button_color {
