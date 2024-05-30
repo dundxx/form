@@ -1,1 +1,1 @@
-Мой ID на stepik.org
+Мой ID на stepik.org.
