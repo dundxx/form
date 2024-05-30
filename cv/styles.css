@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e0e0e;
+    color: #f4f4f4;
+    margin: 0;
+}
+h2 {
+    padding-top: 100px;
+}
+.content h2:after {
+	display: block;
+	position: absolute;
+    width: 80px;
+    height: 4px;
+	background-color: #efc14f;
+	content: "";
+
+}
+p {
+    line-height: 30px;
+}
+.sidebar {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #181818;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #ededed;
+}
+.sidebar ul {
+    list-style-type: none;
+}
+.sidebar li {
+    padding-top: 10px;
+}
+.icon-conteqner {
+    position: fixed;
+    bottom: 100px;
+    width: 150px;
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+.icon {
+    width: 24px;
+    height: 24px;
+  }
+a {
+    position: relative;
+    color: #ededed;
+	cursor: pointer;
+	line-height: 1;
+	text-decoration: none;
+}
+.sidebar ul a:hover {
+    color:#efc14f;
+}
+.sidebar ul a:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #efc14f;
+	content: "";
+	transition: width 0.3s ease-out;
+}
+.sidebar ul a:hover:after,
+.sidebar ul a:focus:after {
+	width: 60%;
+}
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+.content_header {
+    display: grid;
+    align-content: center;
+    margin-left: 220px;
+    padding: 20px;
+    height: 100vh;
+    background-image: url('./images/myPhoto3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #181818;
+    text-align: center;
+    padding: 10px 0;
+    color: #ededed;
+    font-size: small;
+}
