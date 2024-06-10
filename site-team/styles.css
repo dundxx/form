@@ -1,0 +1,50 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #151515;
+}
+.menu { 
+    display: flex; 
+    justify-content: center;
+    padding: 0.6em;
+    background-color: #151515;
+}
+.menu a {
+    padding: 0 10px;
+    position: relative;
+    color: #ededed;
+	cursor: pointer;
+	line-height: 1;
+	text-decoration: none;
+}
+.menu a:hover {
+    color:#4fc0ef;
+}
+
+
+.header { 
+    text-align: center; 
+    padding: 2em; 
+    background-image: url('images/luna_header.webp'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    height: 100vh;
+}
+.backgroundText {
+    background-color: #000;
+    width: max-content;
+    padding: 4px;
+}
+.conteinerCenter {
+    text-align: -webkit-center;
+}
+.section { 
+    padding: 2em; 
+}
+.footer { 
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 1em; 
+}
