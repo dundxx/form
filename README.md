@@ -1,9 +1,39 @@
-### Мой ID на stepik.org.
-# capstone-2-example
-The goal of this project is to create a personal website that showcases your skills, experiences, and interests. The website should be visually appealing and easy to navigate, while also providing relevant information about you and your background. The site should be built entirely with HTML and CSS, with no JavaScript code included
+### stepic-id-printer (h1)
+Мой ID на stepik.org.
+## Возможности (h2)
+Данный проект имеет следующий функционал
+* Выводит stdout уникальный идентификатор
+* Без зависимостей
+* Простой
+## Запуск (h2)
+> bash ./username.sh
+## Портирование (h2)
+Данный проект можно портировать на другие языки программирования
+На Java
+```java
+Class Main {
+    public static void main (String[] args){
+        System.out.println("777");
+    }
+ }
+```
 
-### Timeline
-Hour 1: Gather content and design ideas, create wireframes and mockups
-Hour 2-3: Develop HTML structure and CSS styling, test on different devices and browsers
-Hour 4: Finalize design and content, make any necessary revisions, optimize for performance
-Hour 5: Launch the website and share with others in the Q&A for feedback, make any final adjustments
+на C++
+```c++
+#include <iostream>
+ using namespase std;
+ int main(){
+   cout <<777 << endl;
+   return 0;
+}
+```
+>💡 Попробуйте реализовать на других ЯП
+
+## Контакты разработчика (h2)
+Ниже найдете список ссылок для связи с автором.
+| Платформа| Ссылка | Отвечу за |
+| ---------| ------ | --------- |
+| Почта    | [Ссылка](mailto:pochta@gmail.com)  | 24 часа  |
+| Linkedin | [Ссылка](https://linkedin.com)     | 3 часа   |
+| WhatsApp | [Ссылка](https://wa.me/+777777777) | 30 минут |
+| Telegram | [Ссылка](https://telegram.web.com) | 5 минут  |
